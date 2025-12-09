@@ -78,8 +78,24 @@
                <nav class="main-nav">
     <!-- Logo -->
     <a href="https://wa.me/+50376106996" target="_blank" class="logo">
-        <img src="assets/images/logo.png" width="300">
+    <img src="assets/images/logo.png" class="logo-img">
     </a>
+
+
+    <style>
+        /* Tamaño normal (computadoras y tablets) */
+.logo-img {
+  width: 300px;
+}
+
+/* Solo celulares (pantallas menores a 576px) */
+@media (max-width: 576px) {
+  .logo-img {
+    width: 200px; /* AJUSTA a lo que quieras */
+  }
+}
+
+    </style>
     
     <!-- Menu -->
     <ul class="nav">
